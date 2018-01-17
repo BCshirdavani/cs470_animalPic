@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3"
+    tools:context="com.example.shymacbook.animals.MainActivity">
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:onClick="picswap"
+        >
+
+        <RadioButton
+            android:id="@+id/LION"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Lion"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:id="@+id/DUCK"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Duck"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:id="@+id/BUNNY"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Bunny"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:id="@+id/PAROT"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Parot"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageSPOT"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="3"
+            />
+
+    </GridLayout>
+
+</android.widget.GridLayout>
